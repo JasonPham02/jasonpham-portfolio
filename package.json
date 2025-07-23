@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/tailwindcss -i ./src/styles.css -o ./dist/output.css --watch",
-    "build-once": "./node_modules/.bin/tailwindcss -i ./src/styles.css -o ./dist/output.css",
+    "build": "./node_modules/.bin/tailwindcss -i ./styles.css -o ./dist/output.css --watch",
+    "build-once": "./node_modules/.bin/tailwindcss -i ./styles.css -o ./dist/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
