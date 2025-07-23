@@ -117,16 +117,17 @@
                     <span></span>
                 </div>
             </div>
-
+        </section>
         
-        <section id="projects" class="mb-12">
+        <section id="projects" class="mb-12 md:flex md:flex-col md:gap-8">
             <h3 class="section-title sticky top-0 bg-slate-900 py-2">Projects</h3>
             
+            <!-- Project card 1 -->
             <div class="md:flex md:gap-8">
                 <div>
-                    <img src="assets/project_thumbnails/Weather_App.png" alt="Weather App Screenshot" class="rounded-lg mb-4">
+                    <img src="assets/project_thumbnails/Weather_App.png" alt="Weather App thumbnail" class="rounded-lg mb-4">
                 </div>
-
+            
                 <div class="mb-12">
                     <h2 class="info-title">Weather App</h2>
                     <p class="body-text mb-4">
@@ -135,23 +136,60 @@
                     </p>
 
                     <ul class="meta-text list-disc list-inside mb-4">
-                        <li>Backend: Python (Flask)</li>
                         <li>Frontend: HTML, CSS, JS</li>
-                        <li>Deployed on PythonAnywhere</li>
+                        <li>Backend: Python (Flask)</li>
+                        <li>API: OpenWeatherMap</li>
+                        <li>Design: Responsive layout</li>
+                        <li>Hosting: PythonAnywhere</li>
                     </ul>
 
                     <div class="flex gap-4">
                         <a href="https://cube5881.pythonanywhere.com" target="_blank"
                         class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
-                        Live Demo
+                        Live
                         </a>
                         <a href="https://github.com/JasonPham02/WeatherApp-project" target="_blank"
                         class="bg-gray-700 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded shadow">
                         View Code
                         </a>
                     </div>
-                </div>
+                </div>           
             </div> 
+
+            <!-- Project card 2 -->
+            <div class="md:flex md:gap-8">
+                <div>
+                    <img src="assets/project_thumbnails/JP_Research_Paper.png" alt="Research Paper thumbnail" class="rounded-lg mb-4">
+                </div>
+                <div class="mb-12">
+                    <div>
+                        <h2 class="info-title"> Web Research Paper</h2>
+                        <p class="body-text mb-4">
+                        A fully responsive academic research project designed to emulate the official George Mason University website. 
+                        This site was built entirely with HTML, CSS, and minimal JavaScript to ensure clean structure and responsive design.
+
+                        The site was hosted through GMU’s internal server system using Cisco VPN and deployed via FileZilla over SFTP. 
+                        All files were managed directly on GMU’s remote web server.
+                        </p>
+                    </div>
+
+                    <ul class="meta-text list-disc list-inside mb-4">
+                        <li>Frontend: HTML, CSS, JS</li>
+                        <li>Hosting: Cisco VPN via FileZilla (GMU Web Server)</li>
+                        <li>Design: Responsive layout, modeled after GMU official site </li>
+                        <li>Deployment: Static file hosting on GMU student server</li>
+                    </ul>
+
+                    <div class="flex gap-4">
+                        <a href="https://mason.gmu.edu/~jpham34/titlepage.html" target="_blank"
+                        class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
+                        Live
+                        </a>
+                    
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section id="research&writings" class="mb-12">
@@ -184,53 +222,56 @@
     
         <section id="education" class="mb-12">
             <h3 class="section-title sticky top-0 bg-slate-900 py-2">Education</h3>
-            <div class="mb-12">
-                <p class="meta-text mb-2">Expected Graduation: May 2026</p>
-                <h2 class="info-title">George Mason University</h2>
-                <p class="body-text mb-4">
-                    Bachelor of Science in Information Technology
-                </p>
-            </div>
+            <!-- Whole container -->
+            <div class="px-4"> 
+                <div class="mb-12">
+                    <p class="meta-text mb-2">Expected Graduation: May 2026</p>
+                    <h2 class="info-title">George Mason University</h2>
+                    <p class="body-text mb-4">
+                        Bachelor of Science in Information Technology
+                    </p>
+                </div>
 
-            <div class="mb-12">
-                <p class="meta-text mb-2">Completed: Aug 2025</p>
-                <h2 class="info-title">Northern Virginia Community College</h2>
-                <p class="body-text mb-4">
-                    Associate of Applied Science in Computer Science
-                </p>
-            </div>
-
-
-            <div class="mb-12">
-                <p class="meta-text mb-2">Completed: Dec 2022</p>
-                <h2 class="info-title">Northern Virginia Community College</h2>
-                <p class="body-text mb-4">
-                    Associate of Applied Science in Information Technology
-                </p>
-            </div>
+                <div class="mb-12">
+                    <p class="meta-text mb-2">Completed: Aug 2025</p>
+                    <h2 class="info-title">Northern Virginia Community College</h2>
+                    <p class="body-text mb-4">
+                        Associate of Applied Science in Computer Science
+                    </p>
+                </div>
 
 
-            <div class="mb-12">
-                <p class="meta-text mb-2">Completed: July 2020</p>
-                <h2 class="info-title"> Falls Church High School</h2>
-                <p class="body-text mb-4">
-                   High School Diploma
-                </p>
+                <div class="mb-12">
+                    <p class="meta-text mb-2">Completed: Dec 2022</p>
+                    <h2 class="info-title">Northern Virginia Community College</h2>
+                    <p class="body-text mb-4">
+                        Associate of Applied Science in Information Technology
+                    </p>
+                </div>
+
+
+                <div class="mb-12">
+                    <p class="meta-text mb-2">Completed: July 2020</p>
+                    <h2 class="info-title"> Falls Church High School</h2>
+                    <p class="body-text mb-4">
+                    High School Diploma
+                    </p>
+                </div>
             </div>
         </section>
 
 
         <section id="experience" class="mb-12"> 
             <h3 class="section-title sticky top-0 bg-slate-900 py-2">Experience</h3>
-            <div class="p-4"> <!-- Whole container -->
+            <div class="px-4"> <!-- Whole container -->
                 <div class="mb-16"> <!-- Container for job 1 -->
                     <p class="meta-text mb-2">July 2023 - Aug 2023</p>
                     <h2 class="info-title">IT Assistant</h2>
                     <p class="body-text mb-4">
                         Job Description:
-                        <ul>
-                            <li>Cable Management: Organizing cables for employees’ workspaces.</li>
-                            <li>General IT Helpdesk / Support for internal employees.</li>
+                        <ul class="list-disc list-inside">
+                            <li>Improved workspace organization and safety by designing and implementing a new cable management system for 20+ employee workstations.</li>
+                            <li>Provided technical support to internal employees, resolving hardware and software issues to ensure minimal downtime.</li>
                             <li>Communicating with clients to resolve technical issues.</li>
                         </ul>
                     </p>
@@ -241,10 +282,10 @@
                     <h2 class="info-title">Deli Cook</h2>
                     <p class="body-text mb-4">
                         Job Description:
-                        <ul>
-                            <li>Food Preparation: Preparing ingredients and assembling dishes.</li>
-                            <li>Customer Service: Taking orders and serving customers.</li>
-                            <li>Kitchen Maintenance: Keeping the kitchen clean and organized.</li>
+                        <ul class="list-disc list-inside">
+                            <li>Executed precise food preparation and dish assembly in a fast-paced, team-oriented environment, ensuring consistent quality and adherence to strict procedural standards.</li>
+                            <li>Provided direct and friendly customer service, managing orders and payments while ensuring a positive experience to develop strong client-facing communication skills.</li>
+                            <li>Maintained a clean, organized, and compliant kitchen environment, contributing to team efficiency and upholding high health and safety standards.</li>
                         </ul>
                     </p>
                 </div>
