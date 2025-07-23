@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Link to compiled CSS file -->
+    <link href="../dist/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+</head>
+
+
+<body class="bg-slate-900 text-white font-mono max-w-6xl mx-auto md:px-12 md:py-8">
+    <!-- Mobile Header Section -->
+    <header class="px-6 py-8">
+        <!-- Name and Title -->
+        <div class="mb-8">
+            <h1 class="h1-title">
+                Jason Pham
+            </h1>
+            <h2 class="text-xl text-slate-300 mb-4">
+                Frontend Developer
+            </h2>
+            <p class="meta-text leading-relaxed">
+                Information Technology Student at George Mason University<br> 
+                | Web Development | Networking | Technical Support
+            </p>
+        </div>
+        
+        <!-- Navigation Links -->
+        <nav class="mb-8">
+            <ul class="space-y-2">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills&certification" class="nav-link">Skills & Certification</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#research&writings" class="nav-link">Research & Writings</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="px-6">
+        <section id="about" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">About</h3>
+            <div class="card">
+                <p class="body-text mb-4">
+                    Originally from Vietnam, I am now a driven Information Technology student at George Mason University. 
+                    My passion for technology was first sparked by the satisfaction of solving computer problems on my own, 
+                    and I am now channeling that drive into a professional career. <br>
+                    <br>
+                    I am most interested in applying my skills in web development, networking, and technical support. 
+                    To pursue these interests, I have supplemented my university coursework with hands-on experience, 
+                    including an IT Assistant internship where I handled cable management and helpdesk support, 
+                    and earned certifications like the CS50x from Harvard.<br>
+
+                    <br>
+
+                    I am currently seeking internship or full-time opportunities where I can contribute my technical skills and continue to learn from experienced professionals. 
+                    I would appreciate the opportunity to connect with individuals in the IT industry for mentorship or to discuss how I can be an asset to your team.
+                </p>
+                <p class="meta-text">
+                    Currently learning modern web technologies and building amazing projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills&certification" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2 z-20">Certifications</h3>
+
+            <!-- Mobile Swipeable Container -->
+            <div class="swiper mySwiper rounded-lg">
+                <div class="swiper-wrapper mb-10">
+                    <!-- Certification Card 1 -->
+                    <div class="swiper-slide ">
+                        <div class="">
+                            <img src="assets/cert_folder/cert1.jpeg" alt="LinkedIn Learning Certification" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-4">
+                                <h4 class="text-white font-semibold text-sm mb-1">LinkedIn Learning</h4>
+                                <p class="text-slate-300 text-xs">Professional Certificate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="">
+                            <img src="assets/cert_folder/cert2.jpeg" alt="Harvard CS50 Certification" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-4">
+                                <h4 class="text-white font-semibold text-sm mb-1">Harvard CS50x</h4>
+                                <p class="text-slate-300 text-xs">Computer Science Certificate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certification Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="">
+                            <img src="assets/cert_folder/cert3.jpeg" alt="Google Certification" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/50 to-transparent p-4">
+                                <h4 class="text-white font-semibold text-sm mb-1">Google Certificate</h4>
+                                <p class="text-slate-300 text-xs">Professional Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress lg:hidden">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+
+        
+        <section id="projects" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Projects</h3>
+            
+            <div class="md:flex md:gap-8">
+                <div>
+                    <img src="assets/project_thumbnails/Weather_App.png" alt="Weather App Screenshot" class="rounded-lg mb-4">
+                </div>
+
+                <div class="mb-12">
+                    <h2 class="info-title">Weather App</h2>
+                    <p class="body-text mb-4">
+                        A responsive weather forecast application built with Flask, HTML, CSS, and JavaScript.
+                        Fetches real-time weather data via OpenWeatherMap API and displays temperature, condition, and more based on city input.
+                    </p>
+
+                    <ul class="meta-text list-disc list-inside mb-4">
+                        <li>Backend: Python (Flask)</li>
+                        <li>Frontend: HTML, CSS, JS</li>
+                        <li>Deployed on PythonAnywhere</li>
+                    </ul>
+
+                    <div class="flex gap-4">
+                        <a href="https://cube5881.pythonanywhere.com" target="_blank"
+                        class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
+                        Live Demo
+                        </a>
+                        <a href="https://github.com/yourusername/weather-app" target="_blank"
+                        class="bg-gray-700 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded shadow">
+                        View Code
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section id="research&writings" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Research & Writings</h3>
+
+            <h2 class="info-title">The Role of Cryptocurrency in Financial Privacy and Cybersecurity</h2>
+            <p class="body-text"> A research paper written for [Course Name] at [College], exploring [summary of topic].  
+            Topics include [topic 1], [topic 2], and [optional application/insight].</p>
+
+            <div class="mt-4 mb-12">
+                <a href="assets/research_papers/JP_Final_Research_Paper.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
+            </div>
+
+            <h2 class="info-title">How Technologies are affecting the human values</h2>
+            <p class="body-text"> A research paper written for [Course Name] at [College], exploring [summary of topic].  
+            Topics include [topic 1], [topic 2], and [optional application/insight].</p>
+
+            <div class="mt-4">
+                <a href="assets/research_papers/JP_Final_Literature_Review.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
+            </div>
+
+        </section>
+
+    
+    
+        <section id="education" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Education</h3>
+            <div class="mb-12">
+                <p class="meta-text mb-2">Expected Graduation: May 2026</p>
+                <h2 class="info-title">George Mason University</h2>
+                <p class="body-text mb-4">
+                    Bachelor of Science in Information Technology
+                </p>
+            </div>
+
+            <div class="mb-12">
+                <p class="meta-text mb-2">Completed: Aug 2025</p>
+                <h2 class="info-title">Northern Virginia Community College</h2>
+                <p class="body-text mb-4">
+                    Associate of Applied Science in Computer Science
+                </p>
+            </div>
+
+
+            <div class="mb-12">
+                <p class="meta-text mb-2">Completed: Dec 2022</p>
+                <h2 class="info-title">Northern Virginia Community College</h2>
+                <p class="body-text mb-4">
+                    Associate of Applied Science in Information Technology
+                </p>
+            </div>
+
+
+            <div class="mb-12">
+                <p class="meta-text mb-2">Completed: July 2020</p>
+                <h2 class="info-title"> Falls Church High School</h2>
+                <p class="body-text mb-4">
+                   High School Diploma
+                </p>
+            </div>
+        </section>
+
+
+        <section id="experience" class="mb-12"> 
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Experience</h3>
+            <div class="p-4"> <!-- Whole container -->
+                <div class="mb-16"> <!-- Container for job 1 -->
+                    <p class="meta-text mb-2">July 2023 - Aug 2023</p>
+                    <h2 class="info-title">IT Assistant</h2>
+                    <p class="body-text mb-4">
+                        Job Description:
+                        <ul>
+                            <li>Cable Management: Organizing cables for employees’ workspaces.</li>
+                            <li>General IT Helpdesk / Support for internal employees.</li>
+                            <li>Communicating with clients to resolve technical issues.</li>
+                        </ul>
+                    </p>
+                </div>
+                
+                <div> <!-- Container for job 2 -->
+                    <p class="meta-text mb-2">Jan 2022 - Oct 2022</p>
+                    <h2 class="info-title">Deli Cook</h2>
+                    <p class="body-text mb-4">
+                        Job Description:
+                        <ul>
+                            <li>Food Preparation: Preparing ingredients and assembling dishes.</li>
+                            <li>Customer Service: Taking orders and serving customers.</li>
+                            <li>Kitchen Maintenance: Keeping the kitchen clean and organized.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="mb-12">
+            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Contact</h3>
+            <!-- Social Links -->
+            <div class="flex space-x-4">
+                <a href="#" class="social-link">
+                    GitHub
+                </a>
+                <a href="#" class="social-link">
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+</body>
+</html>
+
