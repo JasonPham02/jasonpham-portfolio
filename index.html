@@ -17,7 +17,7 @@
     <header class="px-6 py-8">
         <!-- Name and Title -->
         <div class="mb-8">
-            <h1 class="h1-title">
+            <h1 class="h1-title animate-fade-in">
                 Jason Pham
             </h1>
             <h2 class="text-xl text-slate-300 mb-4">
@@ -119,111 +119,112 @@
             </div>
         </section>
         
-        <section id="projects" class="mb-12 md:flex md:flex-col md:gap-8">
-            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Projects</h3>
-            
-            <!-- Project card 1 -->
-            <div class="md:flex md:gap-8">
-                <div>
-                    <img src="assets/project_thumbnails/Weather_App.png" alt="Weather App thumbnail" class="rounded-lg mb-4">
-                </div>
-            
-                <div class="mb-12">
-                    <h2 class="info-title">Weather App</h2>
-                    <p class="body-text mb-4">
-                        A responsive weather forecast application built with Flask, HTML, CSS, and JavaScript.
-                        Fetches real-time weather data via OpenWeatherMap API and displays temperature, condition, and more based on city input.
-                    </p>
-
-                    <ul class="meta-text list-disc list-inside mb-4">
-                        <li>Frontend: HTML, CSS, JS</li>
-                        <li>Backend: Python (Flask)</li>
-                        <li>API: OpenWeatherMap</li>
-                        <li>Design: Responsive layout</li>
-                        <li>Hosting: PythonAnywhere</li>
-                    </ul>
-
-                    <div class="flex gap-4">
-                        <a href="https://cube5881.pythonanywhere.com" target="_blank"
-                        class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
-                        Live
-                        </a>
-                        <a href="https://github.com/JasonPham02/WeatherApp-project" target="_blank"
-                        class="bg-gray-700 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded shadow">
-                        View Code
-                        </a>
-                    </div>
-                </div>           
-            </div> 
-
-            <!-- Project card 2 -->
-            <div class="md:flex md:gap-8">
-                <div>
-                    <img src="assets/project_thumbnails/JP_Research_Paper.png" alt="Research Paper thumbnail" class="rounded-lg mb-4">
-                </div>
-                <div class="mb-12">
+        <section id="projects" class="mb-12 md:flex md:flex-col">
+            <h3 class="section-title bg-slate-900 sticky top-0 py-2">Projects</h3>
+            <div class="card">
+                <!-- Project card 1 -->
+                <div class="md:flex md:gap-8">
                     <div>
-                        <h2 class="info-title"> Web Research Paper</h2>
+                        <img src="assets/project_thumbnails/Weather_App.png" alt="Weather App thumbnail" class="rounded-lg mb-4">
+                    </div>
+                
+                    <div class="mb-12">
+                        <h2 class="info-title">Weather App</h2>
                         <p class="body-text mb-4">
-                        A fully responsive academic research project designed to emulate the official George Mason University website. 
-                        This site was built entirely with HTML, CSS, and minimal JavaScript to ensure clean structure and responsive design.
-
-                        The site was hosted through GMU’s internal server system using Cisco VPN and deployed via FileZilla over SFTP. 
-                        All files were managed directly on GMU’s remote web server.
+                            A responsive weather forecast application built with Flask, HTML, CSS, and JavaScript.
+                            Fetches real-time weather data via OpenWeatherMap API and displays temperature, condition, and more based on city input.
                         </p>
+
+                        <ul class="meta-text list-disc list-inside mb-4">
+                            <li>Frontend: HTML, CSS, JS</li>
+                            <li>Backend: Python (Flask)</li>
+                            <li>API: OpenWeatherMap</li>
+                            <li>Design: Responsive layout</li>
+                            <li>Hosting: PythonAnywhere</li>
+                        </ul>
+
+                        <div class="flex gap-4">
+                            <a href="https://cube5881.pythonanywhere.com" target="_blank"
+                            class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
+                            Live
+                            </a>
+                            <a href="https://github.com/JasonPham02/WeatherApp-project" target="_blank"
+                            class="bg-gray-700 hover:bg-gray-800 text-white text-sm px-4 py-2 rounded shadow">
+                            View Code
+                            </a>
+                        </div>
                     </div>
 
-                    <ul class="meta-text list-disc list-inside mb-4">
-                        <li>Frontend: HTML, CSS, JS</li>
-                        <li>Hosting: Cisco VPN via FileZilla (GMU Web Server)</li>
-                        <li>Design: Responsive layout, modeled after GMU official site </li>
-                        <li>Deployment: Static file hosting on GMU student server</li>
-                    </ul>
+                </div> 
 
-                    <div class="flex gap-4">
-                        <a href="https://mason.gmu.edu/~jpham34/titlepage.html" target="_blank"
-                        class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
-                        Live
-                        </a>
-                    
+                <!-- Project card 2 -->
+                <div class="md:flex md:gap-8">
+                    <div>
+                        <img src="assets/project_thumbnails/JP_Research_Paper.png" alt="Research Paper thumbnail" class="rounded-lg mb-4">
+                    </div>
+                    <div class="">
+                        <div>
+                            <h2 class="info-title"> Web Research Paper</h2>
+                            <p class="body-text mb-4">
+                            A fully responsive academic research project designed to emulate the official George Mason University website. 
+                            This site was built entirely with HTML, CSS, and minimal JavaScript to ensure clean structure and responsive design.
+
+                            The site was hosted through GMU’s internal server system using Cisco VPN and deployed via FileZilla over SFTP. 
+                            All files were managed directly on GMU’s remote web server.
+                            </p>
+                        </div>
+
+                        <ul class="meta-text list-disc list-inside mb-4">
+                            <li>Frontend: HTML, CSS, JS</li>
+                            <li>Hosting: Cisco VPN via FileZilla (GMU Web Server)</li>
+                            <li>Design: Responsive layout, modeled after GMU official site </li>
+                            <li>Deployment: Static file hosting on GMU student server</li>
+                        </ul>
+
+                        <div class="flex gap-4">
+                            <a href="https://mason.gmu.edu/~jpham34/titlepage.html" target="_blank"
+                            class="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded shadow">
+                            Live
+                            </a>
+                        
+                        </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section id="research&writings" class="mb-12">
-            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Research & Writings</h3>
+            <h3 class="section-title bg-slate-900 sticky top-0 py-2">Research & Writings</h3>
+            <div class="card">
+                <h2 class="info-title">The Role of Cryptocurrency in Financial Privacy and Cybersecurity</h2>
+                <p class="body-text"> In my research paper, "The Role of Cryptocurrency in Financial Privacy and Cybersecurity,"
+                    I conduct an in-depth analysis of the dual nature of blockchain technology. 
+                    The paper moves beyond a general overview to investigate specific security vulnerabilities,
+                    such as emerging "pig butchering" scams, and examines the legal landscape through established criminological frameworks. 
+                    By synthesizing data from recent industry reports and academic journals, this work highlights the critical tension between technological innovation and real-world security challenges.</p>
 
-            <h2 class="info-title">The Role of Cryptocurrency in Financial Privacy and Cybersecurity</h2>
-            <p class="body-text"> In my research paper, "The Role of Cryptocurrency in Financial Privacy and Cybersecurity,"
-                I conduct an in-depth analysis of the dual nature of blockchain technology. 
-                The paper moves beyond a general overview to investigate specific security vulnerabilities,
-                such as emerging "pig butchering" scams, and examines the legal landscape through established criminological frameworks. 
-                By synthesizing data from recent industry reports and academic journals, this work highlights the critical tension between technological innovation and real-world security challenges.</p>
+                <div class="mt-4 mb-12">
+                    <a href="assets/research_papers/JP_Final_Research_Paper.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
+                </div>
 
-            <div class="mt-4 mb-12">
-                <a href="assets/research_papers/JP_Final_Research_Paper.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
+                <h2 class="info-title">Convenience at What Cost? Examining Technology's Impact on Human Values</h2>
+                <p class="body-text"> In this paper, I investigate the critical trade-offs inherent in our increasingly digital society. 
+                    It addresses key questions about the future of human connection, productivity-driven health challenges, emerging cybersecurity threats, 
+                    and the large-scale impact of automation on the job market.
+                    The research synthesizes expert analysis to argue for a more balanced and critical approach to technology adoption.</p>
+
+                <div class="mt-4">
+                    <a href="assets/research_papers/JP_Final_Literature_Review.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
+                </div>
             </div>
-
-            <h2 class="info-title">Convenience at What Cost? Examining Technology's Impact on Human Values</h2>
-            <p class="body-text"> In this paper, I investigate the critical trade-offs inherent in our increasingly digital society. 
-                It addresses key questions about the future of human connection, productivity-driven health challenges, emerging cybersecurity threats, 
-                and the large-scale impact of automation on the job market.
-                The research synthesizes expert analysis to argue for a more balanced and critical approach to technology adoption.</p>
-
-            <div class="mt-4">
-                <a href="assets/research_papers/JP_Final_Literature_Review.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-sm px-4 py-2 rounded">Read Full Paper</a>
-            </div>
-
         </section>
 
     
     
         <section id="education" class="mb-12">
-            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Education</h3>
+            <h3 class="section-title bg-slate-900 sticky top-0 py-2">Education</h3>
             <!-- Whole container -->
-            <div class="px-4"> 
+            <div class="px-4 card"> 
                 <div class="mb-12">
                     <p class="meta-text mb-2">Expected Graduation: May 2026</p>
                     <h2 class="info-title">George Mason University</h2>
@@ -273,8 +274,8 @@
 
 
         <section id="experience" class="mb-12"> 
-            <h3 class="section-title sticky top-0 bg-slate-900 py-2">Experience</h3>
-            <div class="px-4"> <!-- Whole container -->
+            <h3 class="section-title bg-slate-900 sticky top-0 py-2">Experience</h3>
+            <div class="px-4 card"> <!-- Whole container -->
                 <div class="mb-16"> <!-- Container for job 1 -->
                     <p class="meta-text mb-2">July 2023 - Aug 2023</p>
                     <h2 class="info-title">IT Assistant</h2>

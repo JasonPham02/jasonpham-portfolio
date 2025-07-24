@@ -43,10 +43,9 @@
     .card {
         @apply bg-slate-800 p-4 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors;
     }
-
     
     .btn-primary {
-        @apply bg-emerald-500 text-white px-4 py-2 rounded-md hover:bg-emerald-600 transition-colors;
+        @apply bg-emerald-600 hover:bg-emerald-700 text-white text-sm px-6 py-3 rounded-lg transition-all duration-200 inline-flex items-center gap-2 font-medium;
     }
 
 }
